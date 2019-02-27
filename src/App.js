@@ -1,26 +1,24 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import Step1 from './component/Step1';
+import Step2 from './component/Step2';
+import Step3 from './component/Step3';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+      <BrowserRouter basename='/verification'>
+        <div className="App container-fluid">
+          <div className="verification-box shadow">
+            <Switch>
+              <Route exact path="/" component={Step1} />
+              <Route exact path="/step2" component={Step2} />
+              <Route exact path="/step3" component={Step3} />
+            </Switch>
+          </div>
+        </div>
+      </BrowserRouter>
     );
   }
 }

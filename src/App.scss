@@ -1,5 +1,5 @@
 .App {
-  background-image: repeating-linear-gradient(45deg, #db7173, #b071db, #717cdb);
+  background-color: #333;
   margin: 0;
   padding: 0;
   min-height: 100vh;
@@ -11,10 +11,6 @@
   background-color: #fff;
   padding: 10px 90px;
   border-radius: 7px;
-}
-
-.btn {
-  box-shadow: 0 3px 5px #ddd;
 }
 
 @media screen and (max-width: 768px) {
@@ -81,15 +77,10 @@
 .code {
   border: none;
   -moz-appearance: none !important;
-  width: 30%;
-  border-bottom: 1px solid #333;
+  width: 50%;
+  border-bottom: 2px solid #eee;
   text-align: center;
-  font-size: 30px;
-  letter-spacing: 5px;
-}
-
-.code:focus {
-  border-bottom: 2px solid #333;
+  font-size: 25px;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -104,4 +95,4 @@ input[type=number] {
   -moz-appearance: textfield !important;
 }
 
-/*# sourceMappingURL=App.css.map */
+/*# sourceMappingURL=App.scss.map */

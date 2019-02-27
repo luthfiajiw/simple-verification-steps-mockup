@@ -1,0 +1,56 @@
+.number {
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3.5px!important;
+  padding: 4px 12px;
+  background-color: $light-grey;
+  border-radius: 50px;
+  width: 33px;
+  height: 33px;
+}
+
+#num1 {
+  background-color: $soft-green;
+  color: $bg-white;
+}
+
+#step1 {
+  color: $soft-green;
+}
+
+#num2 {
+  background-color: $soft-green;
+  color: $bg-white;
+}
+
+#step2 {
+  color: $soft-green;
+}
+
+#num3 {
+  background-color: $soft-green;
+  color: $bg-white;
+}
+
+#step3 {
+  color: $soft-green;
+}
+
+
+.line {
+  border-top: 1px solid $light-grey;
+  width: 50%;
+  margin-top: 15px;
+}
+
+#line1 {
+  border-color: $soft-green;
+}
+
+#line2 {
+  border-color: $soft-green;
+}
+
+.step {
+  font-size: 11px;
+}

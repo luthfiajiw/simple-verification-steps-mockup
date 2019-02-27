@@ -1,0 +1,24 @@
+.App {
+  background-image: repeating-linear-gradient(45deg, rgb(219, 113, 115), rgb(176, 113, 219), rgb(113, 124, 219));
+  margin: 0;
+  padding: 0;
+  min-height: $m-height;
+  overflow: hidden;
+}
+
+.verification-box {
+  margin: 50px 200px;
+  background-color: $bg-white;
+  padding: 10px 90px;
+  border-radius: 7px;
+}
+
+.btn {
+  box-shadow: 0 3px 5px #ddd;
+}
+
+@media screen and (max-width: 768px) {
+  .verification-box {
+    margin: 50px 15px;
+  }
+}
